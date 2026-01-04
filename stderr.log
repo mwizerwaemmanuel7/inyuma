@@ -1,0 +1,442 @@
+(node:2018366) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2018366) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:2052892) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2052892) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+MongoDB connection error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.openUri (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1100:11) {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-kgc9opz-shard-00-00.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-01.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-02.3o1wasx.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ctkxlj-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-kgc9opz-shard-00-00.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-01.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-02.3o1wasx.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ctkxlj-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+(node:2159770) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2159770) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+MongoDB connection error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.openUri (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1100:11) {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-kgc9opz-shard-00-00.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-01.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-02.3o1wasx.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ctkxlj-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-kgc9opz-shard-00-00.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-01.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-02.3o1wasx.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ctkxlj-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+(node:2188101) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2188101) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:2194429) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2194429) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+MongoDB connection error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.openUri (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1100:11) {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-kgc9opz-shard-00-00.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-01.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-02.3o1wasx.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ctkxlj-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-kgc9opz-shard-00-00.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-01.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-02.3o1wasx.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ctkxlj-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+(node:2212970) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2212970) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:2214601) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2214601) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+MongoDB connection error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.openUri (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1100:11) {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-kgc9opz-shard-00-00.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-01.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-02.3o1wasx.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ctkxlj-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-kgc9opz-shard-00-00.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-01.3o1wasx.mongodb.net:27017' => [ServerDescription],
+      'ac-kgc9opz-shard-00-02.3o1wasx.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ctkxlj-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+(node:2277346) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2277346) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+MongoDB connection error: MongooseServerSelectionError: Server selection timed out after 30000 ms
+    at _handleConnectionErrors (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.openUri (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1100:11) {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-pt1is8p-shard-00-00.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-01.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-02.dnjolzu.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-eqpueg-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: 30
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-pt1is8p-shard-00-00.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-01.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-02.dnjolzu.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-eqpueg-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: 30
+  }
+}
+(node:2301345) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2301345) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+MongoDB connection error: MongooseServerSelectionError: Server selection timed out after 30000 ms
+    at _handleConnectionErrors (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.openUri (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1100:11) {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-pt1is8p-shard-00-00.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-01.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-02.dnjolzu.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-eqpueg-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: 30
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-pt1is8p-shard-00-00.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-01.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-02.dnjolzu.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-eqpueg-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: 30
+  }
+}
+(node:2307758) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2307758) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:2319937) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2319937) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:4186807) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4186807) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+MongoDB connection error: MongooseServerSelectionError: Server selection timed out after 30000 ms
+    at _handleConnectionErrors (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.openUri (/home4/isaacmus/nodevenv/UMUSHI/22/lib/node_modules/mongoose/lib/connection.js:1100:11) {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-pt1is8p-shard-00-00.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-01.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-02.dnjolzu.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-eqpueg-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: 30
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-pt1is8p-shard-00-00.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-01.dnjolzu.mongodb.net:27017' => [ServerDescription],
+      'ac-pt1is8p-shard-00-02.dnjolzu.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-eqpueg-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: 30
+  }
+}
+(node:926870) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:926870) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:929378) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:929378) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:2196608) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2196608) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:1202684) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1202684) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:1877941) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1877941) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:3229890) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3229890) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:3285471) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3285471) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: retry: Resource temporarily unavailable
+/home4/isaacmus/nodevenv/UMUSHI/22/bin/node: fork: Resource temporarily unavailable
+(node:2711043) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2711043) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:3254245) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3254245) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:3354529) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3354529) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:2165223) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2165223) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(node:303079) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:303079) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version

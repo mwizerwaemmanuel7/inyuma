@@ -61,7 +61,7 @@ router.post('/upload', upload.single('image'), async (req, res) => {
   try {
     const { description, link, categories, paragraph } = req.body;
     // Use your real domain name here!
-    const imageUrl = `https://news.movandikafilsm.fun/uploads/${req.file.filename}`;
+    const imageUrl = `https://inyuma.onrender.com/uploads/${req.file.filename}`;
     const newImage = new Image({
       imageUrl,
       description,

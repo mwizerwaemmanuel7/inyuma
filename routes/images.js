@@ -1,19 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const Image = require('../models/Image');
-const multer = require('multer');
-const path = require('path');
-
-// Set up storage for uploaded files
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, 'uploads/'); // Save to uploads folder
-  },
-  filename: function (req, file, cb) {
-    cb(null, Date.now() + path.extname(file.originalname));
-  }
-});
-const upload = multer({ storage: storage });
 
 // GET all images
 router.get('/', async (req, res) => {
@@ -38,37 +25,25 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// POST a new image by URL (old way, still works)
+// POST a new image - Always uses the fixed image URL
 router.post('/', async (req, res) => {
   try {
-    const { imageUrl, description, link, categories, paragraph } = req.body;
-    const newImage = new Image({
-      imageUrl,
-      description,
-      link,
-      categories,
-      paragraph
-    });
-    await newImage.save();
-    res.status(201).json(newImage);
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-});
-
-// POST upload image file (new way)
-router.post('/upload', upload.single('image'), async (req, res) => {
-  try {
     const { description, link, categories, paragraph } = req.body;
-    // Use your real domain name here!
-    const imageUrl = `https://inyuma.onrender.com/uploads/${req.file.filename}`;
+    
+    // Process categories from comma-separated string to array
+    const categoriesArray = categories ? 
+      categories.split(',').map(cat => cat.trim()) : 
+      [];
+    
+    // Always use the fixed image URL
     const newImage = new Image({
-      imageUrl,
+      imageUrl: 'https://huta-nine.vercel.app/Formular.JPG',
       description,
       link,
-      categories: categories.split(',').map(cat => cat.trim()),
+      categories: categoriesArray,
       paragraph
     });
+    
     await newImage.save();
     res.status(201).json(newImage);
   } catch (err) {
@@ -86,15 +61,40 @@ router.delete('/:id', async (req, res) => {
   }
 });
 
-// UPDATE (edit) an image by ID
+// UPDATE (edit) an image by ID - Always maintains the fixed image URL
 router.put('/:id', async (req, res) => {
   try {
-    const { imageUrl, description, link, categories, paragraph } = req.body;
+    const { description, link, categories, paragraph } = req.body;
+    
+    // Process categories if provided
+    const categoriesArray = categories ? 
+      categories.split(',').map(cat => cat.trim()) : 
+      undefined;
+    
+    // Build update object
+    const updateData = {
+      // Always keep the fixed image URL
+      imageUrl: 'https://huta-nine.vercel.app/Formular.JPG',
+      description,
+      link,
+      paragraph
+    };
+    
+    // Only update categories if provided
+    if (categoriesArray !== undefined) {
+      updateData.categories = categoriesArray;
+    }
+    
     const updated = await Image.findByIdAndUpdate(
       req.params.id,
-      { imageUrl, description, link, categories, paragraph },
-      { new: true }
+      updateData,
+      { new: true } // Return the updated document
     );
+    
+    if (!updated) {
+      return res.status(404).json({ error: 'Image not found' });
+    }
+    
     res.json(updated);
   } catch (err) {
     res.status(400).json({ error: err.message });
